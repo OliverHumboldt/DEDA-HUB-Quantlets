@@ -1,0 +1,40 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: Chronos-2 Applied Financial Time Series Forecasting
+
+Description: Empirical application of Amazon's zero-shot foundation time series model (Chronos-2) to financial market forecasting. The project implements two quantitative trading frameworks: (1) a univariate directional Long/Short strategy on the SPY ETF based on median expected drift, and (2) a cross-sectional market-neutral ranking strategy on S&P 500 constituents following the Fischer & Krauss (2018) methodology. Features include strict point-in-time survivorship bias mitigation via historical component mapping, realistic transaction cost friction modeling, in-sample hyperparameter tuning for context windows, and robust out-of-sample evaluation.
+
+Keywords: Chronos-2, time series, foundation models, quantitative finance, S&P 500, cross-sectional ranking, market-neutral strategy, walk-forward backtest, point-in-time, survivorship bias, machine learning, financial econometrics
+
+Author: Wolfgang Karl Härdle, Sebastian Peklivanas
+
+Submitted_By: Sebastian Peklivanas
+
+Submitted_To: DEDA-Seminar_Courselet
+
+Institution: Humboldt University of Berlin
+
+Email: sebastian.gramberg-peklivanas@student.hu-berlin.de
+
+Created_On: 2026-05-18
+
+Code_Files: chronos_2_finTS.ipynb
+
+Data_Files: S&P_500_Historical_Components_&_Changes(01-17-2026).csv, dynamically fetched yfinance panel data
+
+Output_Files: univariate_strategy_results.csv, univariate_metrics_table.csv, univariate_strategy_performance.png, cross_sectional_market_neutral_results.csv, cross_sectional_accuracy_metrics.csv, cross_sectional_financial_metrics.csv, cross_sectional_market_neutral_performance.png, univariate_net_return.png, cross_sectional_gross.png, cross_sectional_net.png
+
+Libraries: numpy, pandas, yfinance, torch, matplotlib, chronos
+
+Programming_Language: Python
+
+Quantlet_Class: Application Quantlet
+
+Version: 1.0
+
+```
