@@ -1,0 +1,42 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of Quantlet: Bitcoin Return Direction Prediction
+
+Description: Comprehensive quantitative trading project predicting BTC-USD market movements using three distinct methodologies: Logistic Regression, Bidirectional LSTM with Multi-Head Attention, and a Regime-Aligned XGBoost Macro-Quant Predictor. The models integrate Isotonic Regression calibration, Optuna hyperparameter tuning, triple barrier execution, and Kelly criterion position sizing for optimized risk management.
+
+Keywords: cryptocurrency, financial econometrics, machine learning, deep learning, logistic regression, LSTM, XGBoost, walk-forward testing, kelly criterion, risk management, optuna, triple barrier method, predictive modeling, trading strategy
+
+Author: Wolfgang Karl Härdle, Mohammad Gharibi
+
+Submitted_By: Mohammad Gharibi
+
+Submitted_To: DEDA-Seminar_Courselet
+
+Institution: Humboldt-Universität zu Berlin
+
+Email: mohammad.gharibi@student.hu-berlin.de
+
+Created_On: 2026-06-22
+
+Code_Files: LR.FINAL.py, LSTM-MIX-FINAL-LESS FEATURES.py, XGBOOST.FINAL.py
+
+Data_Files: btc_usd_daily.csv, macro_market_data.csv, synthetic_gbm_fallback.csv
+
+Output_Files: logistic_performance_charts.png, lstm_feature_intelligence.png, xgboost_drawdown_analysis.png
+
+Libraries: numpy, pandas, yfinance, matplotlib, seaborn, sklearn, scipy, tensorflow, optuna, xgboost
+
+Programming_Language: Python
+
+Quantlet_Class: Application Quantlet
+
+Quantlet_Type: Analysis, Predictive Modeling, Financial Econometrics
+
+Version: 1.0
+
+```
